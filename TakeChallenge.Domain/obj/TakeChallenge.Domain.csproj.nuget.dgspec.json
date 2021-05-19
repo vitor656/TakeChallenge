@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Domain\\TakeChallenge.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Domain\\TakeChallenge.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Domain\\TakeChallenge.Domain.csproj",
+        "projectName": "TakeChallenge.Domain",
+        "projectPath": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Domain\\TakeChallenge.Domain.csproj",
+        "packagesPath": "C:\\Users\\vitor.araujo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vitor.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Infra\\TakeChallenge.Infra.csproj": {
+                "projectPath": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Infra\\TakeChallenge.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Infra\\TakeChallenge.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Infra\\TakeChallenge.Infra.csproj",
+        "projectName": "TakeChallenge.Infra",
+        "projectPath": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Infra\\TakeChallenge.Infra.csproj",
+        "packagesPath": "C:\\Users\\vitor.araujo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor.araujo\\source\\repos\\TakeChallenge\\TakeChallenge.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vitor.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

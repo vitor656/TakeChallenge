@@ -1,0 +1,12 @@
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.csprojAssemblyReference.cache
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.AssemblyInfoInputs.cache
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.AssemblyInfo.cs
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.csproj.CoreCompileInputs.cache
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\bin\Debug\net5.0\TakeChallenge.Infra.deps.json
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\bin\Debug\net5.0\TakeChallenge.Infra.dll
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\bin\Debug\net5.0\ref\TakeChallenge.Infra.dll
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\bin\Debug\net5.0\TakeChallenge.Infra.pdb
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.dll
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\ref\TakeChallenge.Infra.dll
+C:\Users\vitor.araujo\source\repos\TakeChallenge\TakeChallenge.Infra\obj\Debug\net5.0\TakeChallenge.Infra.pdb
