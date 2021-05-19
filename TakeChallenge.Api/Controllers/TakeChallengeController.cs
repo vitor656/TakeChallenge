@@ -14,10 +14,10 @@ namespace TakeChallenge.Api.Controllers
 
         [HttpGet]
         [Route("TakeProjects")]
-        public async Task<List<TakeProjectViewModel>> TakeProjects([FromServices] ITakeProjectsHandler takeProjectsHandle)
+        public async Task<TakeProjectsResponse> TakeProjects([FromServices] ITakeProjectsHandler takeProjectsHandle)
         {
             var handlerResponse = await takeProjectsHandle.HandleAsync();
-            return handlerResponse.TakeProjects;
+            return handlerResponse;
         }
     }
 }
