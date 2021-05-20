@@ -1,10 +1,9 @@
 using System;
 
-namespace TakeChallenge.Infra.GitHub.Models
+namespace TakeChallenge.Domain.Common.Classes.GitHub
 {
     public class GitRepository
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
         public string Full_Name { get; set; }

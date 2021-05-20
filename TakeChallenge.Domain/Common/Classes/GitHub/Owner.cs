@@ -1,4 +1,4 @@
-namespace TakeChallenge.Infra.GitHub.Models
+namespace TakeChallenge.Domain.Common.Classes.GitHub
 {
     public class Owner
     {

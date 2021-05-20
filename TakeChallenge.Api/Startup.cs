@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using TakeChallenge.Domain.Common.Interfaces;
 using TakeChallenge.Domain.Handlers;
 using TakeChallenge.Infra.GitHub;
 

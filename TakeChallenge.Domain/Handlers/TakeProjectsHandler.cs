@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using TakeChallenge.Domain.Commands.Responses;
-using TakeChallenge.Infra.GitHub;
 using System.Threading.Tasks;
-using TakeChallenge.Infra.GitHub.Models;
+using TakeChallenge.Domain.Common.Interfaces;
+using TakeChallenge.Domain.Common.Classes.GitHub;
 
 namespace TakeChallenge.Domain.Handlers
 {
@@ -30,7 +30,7 @@ namespace TakeChallenge.Domain.Handlers
 
         private TakeProjectsResponse ManipulateResponse(List<GitRepository> repositories)
         {
-            List<TakeProjectViewModel> takeProjects = new List<TakeProjectViewModel>();
+            var takeProjects = new List<TakeProject>();
             var takeProjectsResponse = new TakeProjectsResponse();
 
             if (repositories != null)
@@ -43,7 +43,7 @@ namespace TakeChallenge.Domain.Handlers
                 foreach (var repo in csharpRepos)
                 {
                     count++;
-                    var takeProjectViewModel = new TakeProjectViewModel
+                    var takeProjectViewModel = new TakeProject
                     {
                         Id = repo.Id,
                         FullName = repo.Full_Name,

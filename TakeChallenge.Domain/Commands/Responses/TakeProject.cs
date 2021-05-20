@@ -1,6 +1,6 @@
 namespace TakeChallenge.Domain.Commands.Responses
 {
-    public class TakeProjectViewModel
+    public class TakeProject
     {
         public int Id { get; set; }
         public string FullName { get; set; }

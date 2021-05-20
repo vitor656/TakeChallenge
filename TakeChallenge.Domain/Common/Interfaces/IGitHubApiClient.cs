@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using TakeChallenge.Infra.GitHub.Models;
+using TakeChallenge.Domain.Common.Classes.GitHub;
 
-namespace TakeChallenge.Infra.GitHub
+namespace TakeChallenge.Domain.Common.Interfaces
 {
     public interface IGitHubApiClient
     {
+
         List<GitRepository> GetTakeProjects();
         Task<List<GitRepository>> GetTakeProjectsAsync();
     }

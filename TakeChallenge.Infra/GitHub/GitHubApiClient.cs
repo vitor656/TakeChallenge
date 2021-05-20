@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using RestSharp;
-using TakeChallenge.Infra.GitHub.Models;
 using System.Threading.Tasks;
+using TakeChallenge.Domain.Common.Interfaces;
+using TakeChallenge.Domain.Common.Classes.GitHub;
 
 namespace TakeChallenge.Infra.GitHub
 {
