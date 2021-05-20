@@ -31,6 +31,7 @@ namespace TakeChallenge.Domain.Handlers
         private TakeProjectsResponse ManipulateResponse(List<GitRepository> repositories)
         {
             List<TakeProjectViewModel> takeProjects = new List<TakeProjectViewModel>();
+            var takeProjectsResponse = new TakeProjectsResponse();
 
             if (repositories != null)
             {
@@ -38,8 +39,10 @@ namespace TakeChallenge.Domain.Handlers
                     .Where(r => r.Language == "C#")
                     .OrderBy(r => r.Created_At).ToList();
 
+                int count = 0;
                 foreach (var repo in csharpRepos)
                 {
+                    count++;
                     var takeProjectViewModel = new TakeProjectViewModel
                     {
                         Id = repo.Id,
@@ -48,14 +51,28 @@ namespace TakeChallenge.Domain.Handlers
                         OwnerAvatar = repo.Owner.Avatar_Url
                     };
 
-                    takeProjects.Add(takeProjectViewModel);
+                    switch (count)
+                    {
+                        case 1:
+                            takeProjectsResponse.Project1 = takeProjectViewModel;
+                            break;
+                        case 2:
+                            takeProjectsResponse.Project2 = takeProjectViewModel;
+                            break;
+                        case 3:
+                            takeProjectsResponse.Project3 = takeProjectViewModel;
+                            break;
+                        case 4:
+                            takeProjectsResponse.Project4 = takeProjectViewModel;
+                            break;
+                        case 5:
+                            takeProjectsResponse.Project5 = takeProjectViewModel;
+                            break;
+                    }
                 }
             }
 
-            return new TakeProjectsResponse
-            {
-                TakeProjects = takeProjects
-            };
+            return takeProjectsResponse;
         }
     }
 }
